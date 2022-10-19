@@ -21,7 +21,7 @@ download_choice = input('choice: ')
 
 match download_choice:
 	case 'b':
-		video_object.streams.get_highest_resolution().download(r'C:\Users\basti\Downloads')
+		video_object.streams.get_highest_resolution().download(r'??')
 	case 'm':
-		video_object.streams.get_lowest_resolution().download(r'C:\Users\basti\Downloads')
+		video_object.streams.get_lowest_resolution().download(r'??')
 
